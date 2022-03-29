@@ -5,6 +5,8 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce 
+  volumeMode: Filesystem
+  storageClassName: "ccn-powerstore"
   resources:
     requests:
       storage: 100Gi
